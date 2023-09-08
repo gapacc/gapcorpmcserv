@@ -1,0 +1,11 @@
+enabled: true
+webhook: "https://discord.com/api/webhooks/1146327350380875776/KIzg_DT4r99Ozhf7vXrkBFHXluuZrG1peCQhWna01Ce2pYeIR3szbrSXMwC9rqVhofRX"
+embed-color: "#00FFFF"
+violation-content:
+  - "**Player**: %player%"
+  - "**Check**: %check%"
+  - "**Violations**: %violations%"
+  - "**Client Version**: %version%"
+  - "**Brand**: %brand%"
+  - "**Ping**: %ping%"
+  - "**TPS**: %tps%"

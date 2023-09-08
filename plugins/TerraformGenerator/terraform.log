@@ -1,0 +1,46 @@
+[2023-09-03 10:54:28] [INFO   ]  Custom Logger Initialized 
+[2023-09-03 10:54:28] [INFO   ] [NOTICE] TerraformGenerator will suppress the server's watchdog while generating chunks to prevent unnecessary stacktrace warnings. Unless you specifically need thewatchdog now (to take aikar timings or debug lag), you don't need to take any action. 
+[2023-09-03 10:54:28] [INFO   ] It is recommended to pregenerate to reduce lag problems. 
+[2023-09-03 10:54:28] [INFO   ] Watchdog Thread hooked. 
+[2023-09-03 10:54:28] [INFO   ]  bStats Metrics enabled. 
+[2023-09-03 10:54:28] [INFO   ]  Detected version: v1_20_R1, number: 20.1 
+[2023-09-03 10:54:28] [INFO   ] Unfreezing biome registry... 
+[2023-09-03 10:54:28] [INFO   ] Registered custom biome: muddy_bog 
+[2023-09-03 10:54:28] [INFO   ] Registered custom biome: cherry_grove 
+[2023-09-03 10:54:28] [INFO   ] Registered custom biome: scarlet_forest 
+[2023-09-03 10:54:28] [INFO   ] Registered custom biome: crystalline_cluster 
+[2023-09-03 10:54:28] [INFO   ] Freezing biome registry 
+[2023-09-03 10:54:28] [INFO   ] [Structure Registry] Registered Large Structure: VillageHousePopulator 
+[2023-09-03 10:54:28] [INFO   ] [Structure Registry] Registered Large Structure: VillagePopulator 
+[2023-09-03 10:54:28] [INFO   ] [Structure Registry] Registered Large Structure: OutpostPopulator 
+[2023-09-03 10:54:28] [INFO   ] [Structure Registry] Registered Large Structure: PyramidPopulator 
+[2023-09-03 10:54:28] [INFO   ] [Structure Registry] Registered Large Structure: MonumentPopulator 
+[2023-09-03 10:54:28] [INFO   ] [Structure Registry] Registered Large Structure: StrongholdPopulator 
+[2023-09-03 10:54:28] [INFO   ] [Structure Registry] Registered Large Structure: MansionPopulator 
+[2023-09-03 10:54:28] [INFO   ] [Structure Registry] Registered Large Structure: AncientCityPopulator 
+[2023-09-03 10:54:28] [INFO   ] [Structure Registry] Registered Large Structure: LargeCavePopulator 
+[2023-09-03 10:54:28] [INFO   ] [Structure Registry] Registered Large Structure: MineshaftPopulator 
+[2023-09-03 10:54:28] [INFO   ] [Structure Registry] Registered Large Structure: CatacombsPopulator 
+[2023-09-03 10:54:28] [INFO   ] [Structure Registry] Registered Large Structure: BadlandsMinePopulator 
+[2023-09-03 10:54:28] [INFO   ] [Structure Registry] Registered Large Structure: WarmOceanRuinsPopulator 
+[2023-09-03 10:54:28] [INFO   ] [Structure Registry] Registered Large Structure: TrailRuinsPopulator 
+[2023-09-03 10:54:28] [INFO   ] [Structure Registry] Registered Small Structure: SmallDungeonPopulator 
+[2023-09-03 10:54:28] [INFO   ] [Structure Registry] Registered Small Structure: ShipwreckPopulator 
+[2023-09-03 10:54:28] [INFO   ] [Structure Registry] Registered Small Structure: BuriedTreasurePopulator 
+[2023-09-03 10:54:28] [INFO   ] [Structure Registry] Registered Small Structure: RuinedPortalPopulator 
+[2023-09-03 10:54:28] [INFO   ] [Structure Registry] Registered Small Structure: IglooPopulator 
+[2023-09-03 10:54:28] [INFO   ]  Detected world: gapworld, commencing injection...  
+[2023-09-03 10:54:28] [INFO   ] NMSChunkGenerator Delegate is of type CustomChunkGenerator 
+[2023-09-03 10:54:28] [INFO   ] Java 14+ detected. 
+[2023-09-03 10:54:28] [INFO   ]  Injection success! Proceeding with generation. 
+[2023-09-03 10:54:35] [INFO   ] Will spawn stronghold at: 1404, -100 
+[2023-09-03 10:54:35] [INFO   ] Spawning MossyCavePopulator at 0,8,0 
+[2023-09-03 10:54:35] [INFO   ] Spawning DeepCavePopulator at 0,-38,1 
+[2023-09-03 10:54:36] [INFO   ] Spawning FrozenCavePopulator at 26,55,15 
+[2023-09-03 10:54:38] [INFO   ] Spawning CrystallineClusterCavePopulator at 20,19,61 
+[2023-09-03 10:54:39] [INFO   ] Spawning DripstoneClusterCavePopulator at 45,33,76 
+[2023-09-03 10:54:40] [INFO   ] Spawning LushClusterCavePopulator at 75,6,83 
+[2023-09-03 10:54:41] [INFO   ] getVanillaGeneratedHeight (-89, 55): 61 vs 66 
+[2023-09-03 10:54:53] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: 9,-5 
+[2023-09-03 10:54:53] [INFO   ] Spawning Underground Dungeon at 154,10,-68 
+[2023-09-03 10:55:04] [INFO   ]  gapworld loaded. 

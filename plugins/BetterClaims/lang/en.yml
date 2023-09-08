@@ -1,0 +1,140 @@
+# Help translate this file into more languages!
+Messages:
+  Prefix: '&7[&6BetterClaims&7] '
+  InvalidCommand: '&cInvalid argument! Try &7/%command% help'
+  NoPermission: '&cSorry! &7You don''t have permission to do this!'
+  Reload: '&eReloaded config and language file.'
+  InvalidFlagValue: '&cFlag value is not valid! &7Please try again.'
+  InvalidFlag: '&cFlag is not valid! &7Please try again.'
+  CannotEdit: '&cUnable to edit this while outside a claim!'
+  UnknownID: '&cClaim id is not a valid. &7Please use `/claim list` to view claims
+    you are allowed to edit!'
+  PlayerExist: '&cThe player `%invalid_name%` does not exist!'
+  TooFar: '&7You are too far to do this action!'
+  WorldDisabled: '&cThis world has claims disabled!'
+  Claim:
+    NotInside: '&7You are unable to do this while outside a claim!'
+    Visualize: '&7This claims borders will be highlighted for the next minute!'
+    Auction:
+      NotInside: '&7You are not inside any claim to auction off!'
+      NotOwner: '&cYou cannot auction off another players claim! &8Duh...'
+      Created: '&aAuction is now live for claim #%claim_id% at $%auction_price%! &7Make
+        an auction sign with `/claim auction sign`'
+      Deleted: '&cAuction deleted for claim #%claim_id%!'
+    Override:
+      Enabled: '&7Override &aEnabled&7, you are now able to edit any claim! &8Watch
+        it, with great power comes great responsibility!'
+      Disabled: '&7Override &cDisabled&7, you will no longer be able to edit other
+        players claims!'
+    Deleted: '&cClaim deleted! &8This area will no longer be protected.'
+    Resize:
+      Success: '&7Claim successfully resized to &f%claim_width% x %claim_length%'
+      OverlappingChild: '&cResized area does not include claims children!'
+      OverlappingParent: '&cResized area does not include claims parent!'
+    Teleport: '&7Teleported to &f%claim_name%''s &7home!'
+    None: '&7You are not an owner or member of any claim!'
+    Permission:
+      Claim: '&7You are not a member of &f%claim_owner%&7''s claim!'
+      AdminClaim: '&7You are unable to do this here!'
+    Flag: '&7Claim flag &f%claim_flag% &7changed to &f%claim_flag_value%'
+    Mode:
+      Enabled:
+        Admin: '&fAdmin Mode &aenabled&f, any new claim you make will now be an admin
+          claim'
+      Disabled:
+        Admin: '&fAdmin Mode &cdisabled&f, any new claim you make will now be a user
+          claim'
+      Failed:
+        Item: '&fChanging your claim mode is disallowed! &7Please equip the claim
+          item!'
+        Location: '&fChanging your claim mode is disallowed! &8Reset your claim wand!'
+    Item:
+      InClaim: '&7Right-Click a corner of this claim to change size!'
+      NoClaim: '&7Right-Click two corners to make a claim!'
+      NotOwner: '&7You are inside a claim which you cannot edit!'
+      Wand:
+        Normal: '&7Creating a new claim, right-click another corner to confirm creation'
+        SubClaim: '&7Creating a &fsub-claim&7! Right-click another corner within the
+          parent to confirm'
+        Admin: '&7Creating an &fAdmin &7claim, right-click another corner to confirm
+          creation'
+        Edit: '&cEditing claim! &7Right-click another corner to change claim size!'
+    Create:
+      Success: '&aSuccess! &7This &f%claim_width% x %claim_length% &7claim is now
+        yours!'
+      Failed:
+        Size: '&cError! &7This claim is not big enough! Please make it larger than
+          10x10!'
+        SizeLarge: '&cError! &7This claim is too big now! Please make it smaller than
+          %max%x%max%!'
+        OtherClaim: '&cError! &7This area is overlapping another claim!'
+        Database: '&cError! &7Something really bad happened creating this claim, please
+          report this!'
+        Count: '&cError! &7You got too many claims... how many do you need mate?'
+    Member:
+      Self: '&dYou can''t add your self as a member silly.'
+      Exists: '&7This player is already a member of this claim!'
+      FlagEdit: '&fFlag &7%member_flag%&f for &7%member_name% &fwas set to &b%member_flag_value%'
+      Removed: '&c%member_name% was removed from &b%claim_name%&c!'
+      Leave: '&cYou have left &b%claim_name%&c!'
+      Added: '&fMember %member_name% has been added to this claim!'
+      Notification:
+        Removed: '&cYou were removed from &b%claim_name%&c! &7You can no longer visit
+          here!'
+        Leave: '&cMember &7%member_name% &chas left your claim!'
+  Convert:
+    Started: '&fConversion for the plugin &7%plugin% &fhas begun...'
+    Finished: '&fConversion for the plugin &7%plugin% &fhas finished!'
+    Failed: '&fConversion for the claim id &7%claim%&f for the plugin &7%plugin% &cFAILED
+      &fto convert! &7More info in console'
+    Success: '&fConversion for the claim id &7%claim%&f for the plugin &7%plugin%
+      &aSUCCESSFULLY &fto converted!'
+    Unknown: '&7Unknown plugin %plugin% given, please choose from this list &f%list%'
+  Request:
+    New: '&aNew &frequest from &7%request_name% &fto join your claim!'
+    Reminder: '&fYou have %claim_requests% request(s) pending!'
+    Accepted: '&7%request_name%''s &frequest accepted!'
+    Denied: '&7%request_name%''s &crequest was denied!'
+    Requester:
+      Accepted: '&aYour request to join &b%claim_name% &awas accepted!'
+      Denied: '&cYour request to join &b%claim_name% &cwas denied!'
+      Already: '&cYou already asked to join this claim! &8Please... calm down'
+      Sent: '&fYour request to join &b%claim_name% &fhas been sent!'
+  EventDenied: '&cSome external force denied this action!'
+
+Help:
+  Prefix: '&e&m-----&6&l BetterClaims &8| Help &e&m-----'
+  Help: ' &7- &e/%command% help &7- Shows help list'
+  Reload: ' &7- &e/%command% reload &7- Reload the plugin'
+  Create: ' &7- &e/%command% create &7- Create a claim'
+  Info: ' &7- &e/%command% info &7- View claim information'
+  List: ' &7- &e/%command% list &7- List all claims you are allowed to edit in'
+  Request: ' &7- &e/%command% request &7- Request to join a claim'
+  Flags: ' &7- &e/%command% flags &7- Change claim flags'
+  Convert: ' &7- &e/%command% convert <plugin_name> &7- Convert the plugins claims
+    into a Better Claim'
+  ClaimItem: ' &7- &e/%command% claimitem &7- Get a copy of the claiming item'
+  AdminClaim: ' &7- &e/%command% adminclaim &7- Toggle claim-mode to admin claim'
+  AdminOverride: ' &7- &e/%command% adminoverride &7- Enable the ability to edit in
+    any claim'
+  Auction: ' &7- &e/%command% auction <create/delete/sign> &7- Sell off claims to
+    others for a price and time!'
+  AddMember: ' &7- &e/%command% addmember <player_name> &7- Add a member to the claim
+    you are standing in'
+
+Usage:
+  Convert: '&cUsage&7: /%command% convert <plugin_name>'
+  Auction:
+    Create: '&cUsage&7: /%command% auction create <price> <time_in_hours (0 = forever)>'
+  AddMember: '&cUsage&7: /%command% addmember <player_name>'
+
+ClaimInfo:
+- '&e&m------&6&l BetterClaims &8| Claim Info &e&m------'
+- ''
+- '&fClaim Name&7: &r%claim_name%'
+- '&fOwner&7: %claim_owner%'
+- '&fID&7: %claim_id%'
+- '&fMembers&7: %claim_members%'
+- '&fSize&7: %claim_width% x %claim_length%'
+- '&fLocation&7: %claim_location%'
+- '&fWorld&7: %claim_location_world%'

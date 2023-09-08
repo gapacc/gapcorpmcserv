@@ -1,0 +1,244 @@
+Global:
+  Border:
+    Enabled: true
+    Name: '&8-&6&lBetterClaims&8-'
+    Item: 'ORANGE_STAINED_GLASS_PANE'
+    Lore: []
+  Back:
+    Name: '&f<- &e&bBack'
+    Item: 'arrow'
+    Lore:
+      - ''
+      - '&8Click to go back a page'
+Claim:
+  Title: '&8Claim | %claim_name%'
+  Items:
+    Members:
+      Name: '&eMembers'
+      Item: 'player_head'
+      Lore:
+        - ''
+        - '&7Members: &f%claim_members%'
+        - ''
+        - '&fClick to view all members'
+    Statistics:
+      Name: '&aClaim Stats'
+      Item: 'paper'
+      Lore:
+        - ''
+        - '&7Members: &f%claim_members%'
+        - '&7Size: &f%claim_width% x %claim_length%'
+        - '&7Location: &f%claim_location%'
+        - '&7World: &f%claim_location_world%'
+        - ''
+        - '&7Click to receive more information in chat'
+    Flags:
+      Allowed:
+        Name: '&eFlags'
+        Item: 'writable_book'
+        Lore:
+        - ''
+        - '&7Click to edit claim flags'
+      Disallowed:
+        Name: '&eFlags'
+        Item: 'book'
+        Lore:
+          - ''
+          - '&8Unable to edit'
+    Requests:
+      Allowed:
+        Name: '&aJoin Requests'
+        Item: 'name_tag'
+        Lore:
+          - ''
+          - '&fRequest(s): &b%claim_requests%'
+          - ''
+          - '&7Click to view all join requests'
+      Disallowed:
+        Name: '&aJoin Requests'
+        Item: 'name_tag'
+        Lore:
+          - ''
+          - '&fRequest(s): &b%claim_requests%'
+          - ''
+          - '&8Unable to edit'
+    Teleport:
+      Name: '&eTeleport To Claim'
+      Item: 'nether_star'
+      Lore:
+        - ''
+        - '&7Click to teleport to claim home'
+    Delete:
+      Name: '&4Delete Claim'
+      Item: 'barrier'
+      Lore:
+        - ''
+        - '&7Permanently delete this claim &8(confirm)'
+    SubClaim:
+      Name: '&eSub-Divisions'
+      Item: 'end_portal_frame'
+      Lore:
+        - ''
+        - '&7View/Edit sub divisions of this claim'
+    Visualize:
+      Name: '&eVisualize Claim'
+      Item: 'map'
+      Lore:
+        - ''
+        - '&7Visualize claim in the world'
+ClaimSelect:
+  Title: '&8Select Claim'
+  Items:
+    Owner:
+      Name: '&d%claim_name%'
+      Item: 'player_head'
+      Lore:
+        - ''
+        - '&7Members: &f%claim_members%'
+        - '&7Size: &f%claim_width% x %claim_length%'
+        - '&7Location: &f%claim_location%'
+        - '&7World: &f%claim_location_world%'
+        - '&7ID: %claim_id%'
+        - ''
+        - '&fClick to view your claim!'
+    Member:
+      Name: '&e%claim_name%'
+      Item: 'player_head'
+      Lore:
+        - ''
+        - '&7Members: &f%claim_members%'
+        - '&7Size: &f%claim_width% x %claim_length%'
+        - '&7Location: &f%claim_location%'
+        - '&7World: &f%claim_location_world%'
+        - ''
+        - '&fClick to view this claim!'
+Members:
+  Title: '&8Members | %claim_name%'
+  Items:
+    Member:
+      Edit:
+        Name: '&e%member_name%'
+        Item: 'player_head'
+        Lore:
+          - ''
+          - '&7Member Since: &f%member_date%'
+          - ''
+          - '&fClick to edit &8%member_name%'
+      Disallowed:
+        Name: '&e%member_name%'
+        Item: 'player_head'
+        Lore:
+          - ''
+          - '&7Member Since: &f%member_date%'
+    Owner:
+      Name: '&eClaim Members'
+      Item: 'player_head'
+      Lore:
+        - ''
+        - '&7Viewing %claim_members% claim members'
+        - ''
+        - '&fClick each member to edit their flags.'
+    Requests:
+      Name: '&aJoin Requests'
+      Item: 'name_tag'
+      Lore:
+        - ''
+        - '&fRequest(s): &b%claim_requests%'
+        - ''
+        - '&7Click to view all join requests'
+    Leave:
+      Name: '&cLeave Claim'
+      Item: 'barrier'
+      Lore:
+        - ''
+        - '&7Leave this cruel land &8(confirm)'
+Member:
+  Title: '&8Member | %member_name% | %claim_name%'
+  Items:
+    Member:
+      Name: '&eEditting Member'
+      Item: 'player_head'
+      Lore:
+        - ''
+        - '&f%member_name%'
+        - ''
+        - '&7Member Since: &f%member_date%'
+    Flag:
+      Enabled:
+        Name: '&e%member_flag%'
+        Item: 'GOLD_INGOT'
+        Lore:
+          - ''
+          - '&7Value: &f%member_flag_value%'
+      Disabled:
+        Name: '&e%member_flag%'
+        Item: 'IRON_INGOT'
+        Lore:
+          - ''
+          - '&7Value: &f%member_flag_value%'
+    Remove:
+      Name: '&cRemove Member'
+      Item: 'barrier'
+      Lore:
+        - ''
+        - '&fClick to remove &7%member_name% &8(confirm)'
+Requesting:
+  Title: '&8Request to Join'
+  Items:
+    New:
+      Name: '&e%claim_name%'
+      Item: 'gold_block'
+      Lore:
+        - ''
+        - '&fClick to send a join request!'
+    Requested:
+      Name: '&e%claim_name%'
+      Item: 'iron_block'
+      Lore:
+        - ''
+        - '&7We see you really want to join this claim'
+        - '&7Unfortunately, &a%claim_owner% &7hasn''t responded'
+Requests:
+  Title: '&8Join Requests | %claim_name%'
+  Items:
+    Request:
+      Name: '&e%request_name%'
+      Item: 'player_head'
+      Lore:
+        - ''
+        - '&fLeft-Click: &aAccept'
+        - '&fRight-Click: &cDecline'
+Flags:
+  Title: '&8Claim | Flags'
+  Items:
+    Enabled:
+      Name: '&e%claim_flag%'
+      Item: 'gold_ingot'
+      Lore:
+        - ''
+        - '&fStatus: &b%claim_flag_value%'
+        - ''
+        - '&fClick to toggle flag'
+    Disabled:
+      Name: '&e%claim_flag%'
+      Item: 'iron_ingot'
+      Lore:
+        - ''
+        - '&fStatus: &b%claim_flag_value%'
+        - ''
+        - '&fClick to toggle flag'
+Confirm:
+  Title: '&8Confirm | %confirm_type%'
+  Items:
+    Accept:
+      Name: '&e&lConfirm Action'
+      Item: 'redstone'
+      Lore:
+        - ''
+        - '&fClick to approve %confirm_action%'
+    Cancel:
+      Name: '&c&lCancel'
+      Item: 'barrier'
+      Lore:
+        - ''
+        - '&fClick to cancel action'

@@ -1,0 +1,315 @@
+[10:54:22] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10:54:23] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[10:54:24] [ServerMain/INFO]: Loaded 7 recipes
+[10:54:24] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[10:54:24] [Server thread/INFO]: Loading properties
+[10:54:24] [Server thread/INFO]: This server is running CraftBukkit version 3862-Spigot-d2eba2c-db4ba28 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
+[10:54:24] [Server thread/INFO]: Debug logging is disabled
+[10:54:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:54:24] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:54:24] [Server thread/INFO]: Default game type: SURVIVAL
+[10:54:24] [Server thread/INFO]: Generating keypair
+[10:54:24] [Server thread/INFO]: Starting Minecraft server on *:1208
+[10:54:24] [Server thread/INFO]: Using default channel type
+[10:54:25] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[10:54:27] [Server thread/WARN]: Legacy plugin SimpleTpa v6.4 does not specify an api-version.
+[10:54:27] [Server thread/WARN]: Legacy plugin NoClip v1.0 does not specify an api-version.
+[10:54:27] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[10:54:27] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.12
+[10:54:27] [Server thread/INFO]: [TerraformGenerator] Loading TerraformGenerator v10.0.1
+[10:54:27] [Server thread/INFO]: [BetterClaims] Loading BetterClaims v3.0.2
+[10:54:27] [Server thread/INFO]: [NoClip] Loading NoClip v1.0
+[10:54:27] [Server thread/INFO]: [CreeperConfetti] Loading CreeperConfetti v1.4
+[10:54:27] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.1
+[10:54:27] [Server thread/INFO]: [RealTimePlugin] Loading RealTimePlugin v3.9
+[10:54:27] [Server thread/INFO]: [GrimAC] Loading GrimAC v2.3.43
+[10:54:27] [Server thread/INFO]: [GrimAC] Unknown user language IT.
+[10:54:27] [Server thread/INFO]: [GrimAC] If you fluently speak IT as well as English, see the GitHub repo to translate it!
+[10:54:27] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
+[10:54:27] [Server thread/INFO]: [GSit] Loading GSit v1.4.10
+[10:54:27] [Server thread/INFO]: [SuperVanish] Loading SuperVanish v6.2.18
+[10:54:27] [Server thread/INFO]: [ActionHealth] Loading ActionHealth v3.5.9
+[10:54:27] [Server thread/INFO]: [GWarp] Loading GWarp v[2.13.0.2]
+[10:54:27] [Server thread/INFO]: [Admin-GUI] Loading Admin-GUI v1.9.0
+[10:54:27] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v10.0.1
+[10:54:27] [Server thread/INFO]: New config version detected. Overwriting old config. A backup will be made
+[10:54:28] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized[m
+[10:54:28] [Server thread/INFO]: [TerraformGenerator] [0;32;1mbStats Metrics enabled.[m
+[10:54:28] [Server thread/INFO]: [TerraformGenerator] Detected version: v1_20_R1, number: 20.1[m
+[10:54:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:54:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:54:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:54:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:54:28] [Server thread/INFO]: Preparing level "gapworld"
+[10:54:28] [Server thread/INFO]: -------- World Settings For [gapworld] --------
+[10:54:28] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:54:28] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:54:28] [Server thread/INFO]: View Distance: 10
+[10:54:28] [Server thread/INFO]: Simulation Distance: 10
+[10:54:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:54:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:54:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:54:28] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:54:28] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:54:28] [Server thread/INFO]: Mob Spawn Range: 6
+[10:54:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:54:28] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:54:28] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:54:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:54:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:54:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:54:28] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:54:28] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:54:28] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:54:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:54:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:54:28] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:54:28] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:54:28] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:54:28] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:54:28] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:54:28] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[10:54:28] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[10:54:28] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[10:54:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[10:54:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[10:54:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[10:54:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[10:54:28] [Server thread/INFO]: Max TNT Explosions: 100
+[10:54:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:54:28] [Server thread/INFO]: [TerraformGenerator] Detected world: gapworld, commencing injection... [m
+[10:54:28] [Server thread/INFO]: [TerraformGenerator] [0;32;1mInjection success! Proceeding with generation.[m
+[10:54:29] [Server thread/INFO]: -------- World Settings For [gapworld_nether] --------
+[10:54:29] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:54:29] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:54:29] [Server thread/INFO]: View Distance: 10
+[10:54:29] [Server thread/INFO]: Simulation Distance: 10
+[10:54:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:54:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:54:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:54:29] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:54:29] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:54:29] [Server thread/INFO]: Mob Spawn Range: 6
+[10:54:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:54:29] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:54:29] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:54:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:54:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:54:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:54:29] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:54:29] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:54:29] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:54:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:54:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:54:29] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:54:29] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:54:29] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:54:29] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:54:29] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:54:29] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[10:54:29] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[10:54:29] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[10:54:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[10:54:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[10:54:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[10:54:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[10:54:29] [Server thread/INFO]: Max TNT Explosions: 100
+[10:54:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:54:31] [Server thread/INFO]: -------- World Settings For [gapworld_the_end] --------
+[10:54:31] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:54:31] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:54:31] [Server thread/INFO]: View Distance: 10
+[10:54:31] [Server thread/INFO]: Simulation Distance: 10
+[10:54:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:54:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:54:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:54:31] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:54:31] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:54:31] [Server thread/INFO]: Mob Spawn Range: 6
+[10:54:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:54:31] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:54:31] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:54:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:54:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:54:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:54:31] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:54:31] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:54:31] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:54:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:54:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:54:31] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:54:31] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:54:31] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:54:31] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:54:31] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:54:31] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[10:54:31] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[10:54:31] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[10:54:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[10:54:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[10:54:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[10:54:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[10:54:31] [Server thread/INFO]: Max TNT Explosions: 100
+[10:54:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:54:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:54:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[10:54:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[10:54:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[10:54:34] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[10:54:34] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[10:54:35] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[10:54:35] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[10:54:36] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[10:54:36] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[10:54:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[10:54:37] [Worker-Main-10/INFO]: Preparing spawn area: 1%
+[10:54:38] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[10:54:38] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[10:54:39] [Worker-Main-4/INFO]: Preparing spawn area: 4%
+[10:54:39] [Worker-Main-2/INFO]: Preparing spawn area: 6%
+[10:54:40] [Worker-Main-2/INFO]: Preparing spawn area: 9%
+[10:54:40] [Worker-Main-8/INFO]: Preparing spawn area: 9%
+[10:54:41] [Worker-Main-3/INFO]: Preparing spawn area: 10%
+[10:54:41] [Worker-Main-5/INFO]: Preparing spawn area: 12%
+[10:54:42] [Worker-Main-9/INFO]: Preparing spawn area: 15%
+[10:54:42] [Worker-Main-9/INFO]: Preparing spawn area: 15%
+[10:54:43] [Worker-Main-9/INFO]: Preparing spawn area: 18%
+[10:54:43] [Worker-Main-11/INFO]: Preparing spawn area: 19%
+[10:54:44] [Worker-Main-6/INFO]: Preparing spawn area: 21%
+[10:54:44] [Worker-Main-7/INFO]: Preparing spawn area: 23%
+[10:54:45] [Worker-Main-4/INFO]: Preparing spawn area: 23%
+[10:54:45] [Worker-Main-6/INFO]: Preparing spawn area: 25%
+[10:54:46] [Worker-Main-10/INFO]: Preparing spawn area: 27%
+[10:54:46] [Worker-Main-5/INFO]: Preparing spawn area: 29%
+[10:54:47] [Worker-Main-10/INFO]: Preparing spawn area: 31%
+[10:54:47] [Worker-Main-10/INFO]: Preparing spawn area: 32%
+[10:54:48] [Worker-Main-5/INFO]: Preparing spawn area: 33%
+[10:54:48] [Worker-Main-9/INFO]: Preparing spawn area: 35%
+[10:54:49] [Worker-Main-11/INFO]: Preparing spawn area: 36%
+[10:54:49] [Worker-Main-2/INFO]: Preparing spawn area: 38%
+[10:54:50] [Worker-Main-4/INFO]: Preparing spawn area: 40%
+[10:54:50] [Worker-Main-2/INFO]: Preparing spawn area: 42%
+[10:54:51] [Worker-Main-5/INFO]: Preparing spawn area: 44%
+[10:54:51] [Worker-Main-7/INFO]: Preparing spawn area: 45%
+[10:54:52] [Worker-Main-9/INFO]: Preparing spawn area: 48%
+[10:54:52] [Worker-Main-6/INFO]: Preparing spawn area: 50%
+[10:54:53] [Worker-Main-2/INFO]: Preparing spawn area: 53%
+[10:54:53] [Worker-Main-11/INFO]: Preparing spawn area: 54%
+[10:54:54] [Worker-Main-10/INFO]: Preparing spawn area: 56%
+[10:54:54] [Worker-Main-3/INFO]: Preparing spawn area: 58%
+[10:54:55] [Worker-Main-3/INFO]: Preparing spawn area: 60%
+[10:54:55] [Worker-Main-10/INFO]: Preparing spawn area: 63%
+[10:54:56] [Worker-Main-3/INFO]: Preparing spawn area: 65%
+[10:54:56] [Worker-Main-10/INFO]: Preparing spawn area: 68%
+[10:54:57] [Worker-Main-8/INFO]: Preparing spawn area: 70%
+[10:54:57] [Worker-Main-5/INFO]: Preparing spawn area: 70%
+[10:54:58] [Worker-Main-3/INFO]: Preparing spawn area: 72%
+[10:54:58] [Worker-Main-5/INFO]: Preparing spawn area: 75%
+[10:54:59] [Worker-Main-3/INFO]: Preparing spawn area: 78%
+[10:54:59] [Worker-Main-9/INFO]: Preparing spawn area: 81%
+[10:55:00] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[10:55:00] [Worker-Main-6/INFO]: Preparing spawn area: 84%
+[10:55:01] [Worker-Main-6/INFO]: Preparing spawn area: 85%
+[10:55:01] [Worker-Main-2/INFO]: Preparing spawn area: 88%
+[10:55:02] [Worker-Main-8/INFO]: Preparing spawn area: 90%
+[10:55:02] [Worker-Main-1/INFO]: Preparing spawn area: 93%
+[10:55:03] [Worker-Main-5/INFO]: Preparing spawn area: 96%
+[10:55:03] [Worker-Main-11/INFO]: Preparing spawn area: 98%
+[10:55:04] [Server thread/INFO]: Time elapsed: 31147 ms
+[10:55:04] [Server thread/INFO]: [TerraformGenerator] gapworld loaded.[m
+[10:55:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[10:55:04] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:55:04] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[10:55:05] [Worker-Main-4/INFO]: Preparing spawn area: 1%
+[10:55:05] [Worker-Main-11/INFO]: Preparing spawn area: 5%
+[10:55:06] [Worker-Main-11/INFO]: Preparing spawn area: 9%
+[10:55:06] [Worker-Main-1/INFO]: Preparing spawn area: 15%
+[10:55:07] [Worker-Main-11/INFO]: Preparing spawn area: 21%
+[10:55:07] [Worker-Main-7/INFO]: Preparing spawn area: 25%
+[10:55:08] [Worker-Main-1/INFO]: Preparing spawn area: 32%
+[10:55:08] [Worker-Main-9/INFO]: Preparing spawn area: 36%
+[10:55:09] [Worker-Main-1/INFO]: Preparing spawn area: 43%
+[10:55:09] [Worker-Main-8/INFO]: Preparing spawn area: 49%
+[10:55:10] [Worker-Main-7/INFO]: Preparing spawn area: 56%
+[10:55:10] [Worker-Main-1/INFO]: Preparing spawn area: 62%
+[10:55:11] [Worker-Main-6/INFO]: Preparing spawn area: 69%
+[10:55:11] [Worker-Main-2/INFO]: Preparing spawn area: 75%
+[10:55:12] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[10:55:12] [Worker-Main-7/INFO]: Preparing spawn area: 87%
+[10:55:13] [Worker-Main-3/INFO]: Preparing spawn area: 93%
+[10:55:13] [Server thread/INFO]: Time elapsed: 9331 ms
+[10:55:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[10:55:13] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:55:13] [Worker-Main-2/INFO]: Preparing spawn area: 11%
+[10:55:14] [Worker-Main-8/INFO]: Preparing spawn area: 80%
+[10:55:14] [Server thread/INFO]: Time elapsed: 1164 ms
+[10:55:14] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[10:55:14] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+[10:55:14] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+[10:55:14] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[10:55:14] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.12
+[10:55:14] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_20_R1[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m[m
+[10:55:15] [Server thread/INFO]: [BetterClaims] Enabling BetterClaims v3.0.2
+[10:55:15] [Server thread/INFO]: [NoClip] Enabling NoClip v1.0
+[10:55:15] [Server thread/INFO]: [CreeperConfetti] Enabling CreeperConfetti v1.4
+[10:55:15] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.1
+[10:55:15] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[10:55:15] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[10:55:15] [Server thread/INFO]: [LoginSecurity] Applying database upgrade 1: Initial
+[10:55:15] [Server thread/INFO]: [LoginSecurity] Applying database upgrade 2: Add uuid mode
+[10:55:15] [Server thread/INFO]: [LoginSecurity] Applying database upgrade 3: Fix inventories
+[10:55:15] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[10:55:15] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[10:55:15] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[10:55:15] [Server thread/INFO]: [RealTimePlugin] Enabling RealTimePlugin v3.9
+[10:55:15] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.43
+[10:55:15] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
+[10:55:15] [Server thread/INFO]: [GrimAC] Registering packets...
+[10:55:15] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
+[10:55:15] [Server thread/INFO]: [GSit] Enabling GSit v1.4.10
+[10:55:15] [Server thread/INFO]: [0;37;22m[[0;33;22mGSit[0;37;22m][0;32;1m The plugin was successfully enabled.[m
+[10:55:15] [Server thread/INFO]: [0;37;22m[[0;33;22mGSit[0;37;22m][0;32;1m New version available:[0;33;22m 1.4.11[0;32;1m!
+[10:55:15] [Server thread/INFO]: [0;37;22m[[0;33;22mGSit[0;37;22m][0;32;1m You are currently running version:[0;33;22m 1.4.10[0;32;1m!
+[10:55:15] [Server thread/INFO]: [0;37;22m[[0;33;22mGSit[0;37;22m][0;32;1m Download the latest version at:
+[10:55:15] [Server thread/INFO]: [0;37;22m[[0;33;22mGSit[0;37;22m][0;33;22m https://www.spigotmc.org/resources/62325[m
+[10:55:15] [Server thread/INFO]: [SuperVanish] Enabling SuperVanish v6.2.18
+[10:55:15] [Server thread/INFO]: [SuperVanish] Please install ProtocolLib to be able to use all SuperVanish features: https://www.spigotmc.org/resources/protocollib.1997/
+[10:55:15] [Server thread/INFO]: [ActionHealth] Enabling ActionHealth v3.5.9
+[10:55:15] [Server thread/INFO]: [GWarp] Enabling GWarp v[2.13.0.2]
+[10:55:16] [Server thread/INFO]: [0;37;22m[[0;33;22mGWarp[0;37;22m][0;32;1m The Plugin was successfully enabled.[m
+[10:55:16] [Server thread/INFO]: [Admin-GUI] Enabling Admin-GUI v1.9.0
+[10:55:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:55:16] [Server thread/INFO]: Done (47.447s)! For help, type "help"
+[10:55:16] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[10:55:16] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+[10:55:16] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m[m
+[10:55:16] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m[m
+[10:55:16] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m[m
+[10:55:16] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+[10:55:16] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[10:55:16] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.12[0;39m[m
+[10:55:16] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m[m
+[10:55:16] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[10:55:17] [Craft Scheduler Thread - 7/INFO]: 
+[10:55:17] [Craft Scheduler Thread - 7/INFO]: 
+[10:55:17] [Craft Scheduler Thread - 7/INFO]: [0;30;1m[]===========[[0;32;1mEnabling [0;31;1mAdminGUI[0;30;1m]===========[]
+[10:55:17] [Craft Scheduler Thread - 7/INFO]: [0;30;1m|
+[10:55:17] [Craft Scheduler Thread - 7/INFO]: [0;30;1m| [0;31;1mInformation:
+[10:55:17] [Craft Scheduler Thread - 7/INFO]: [0;30;1m|
+[10:55:17] [Craft Scheduler Thread - 7/INFO]: [0;30;1m|   [0;34;1mName: [0;36;1mAdminGUI
+[10:55:17] [Craft Scheduler Thread - 7/INFO]: [0;30;1m|   [0;34;1mDeveloper: [0;36;1mBlack1_TV
+[10:55:17] [Craft Scheduler Thread - 7/INFO]: [0;30;1m|   [0;34;1mVersion: [0;36;1m1.9.0 (FREE)
+[10:55:17] [Craft Scheduler Thread - 7/INFO]: [0;30;1m|   [0;34;1mWebsite: [0;36;1mhttps://rabbit-company.com
+[10:55:17] [Craft Scheduler Thread - 7/INFO]: [0;30;1m|
+[10:55:17] [Craft Scheduler Thread - 7/INFO]: [0;30;1m| [0;31;1mSponsors:
+[10:55:17] [Craft Scheduler Thread - 7/INFO]: [0;30;1m|
+[10:55:17] [Craft Scheduler Thread - 7/INFO]: [0;30;1m|   [0;34;1m- [0;33;22mhttps://rabbitserverlist.com
+[10:55:17] [Craft Scheduler Thread - 7/INFO]: [0;30;1m|
+[10:55:17] [Craft Scheduler Thread - 7/INFO]: [0;30;1m| [0;31;1mSupport:
+[10:55:17] [Craft Scheduler Thread - 7/INFO]: [0;30;1m|
+[10:55:17] [Craft Scheduler Thread - 7/INFO]: [0;30;1m|   [0;34;1mDiscord: [0;36;1mziga.zajc007
+[10:55:17] [Craft Scheduler Thread - 7/INFO]: [0;30;1m|   [0;34;1mMail: [0;36;1mziga.zajc007@gmail.com
+[10:55:17] [Craft Scheduler Thread - 7/INFO]: [0;30;1m|   [0;34;1mDiscord: [0;36;1mhttps://discord.gg/hUNymXX
+[10:55:17] [Craft Scheduler Thread - 7/INFO]: [0;30;1m|
+[10:55:17] [Craft Scheduler Thread - 7/INFO]: [0;30;1m[]=========================================[]
+[10:55:17] [Craft Scheduler Thread - 7/INFO]: [m
